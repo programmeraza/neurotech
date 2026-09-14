@@ -112,6 +112,16 @@
   transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
 }
 
+/* Desktop button sits near the right edge of the nav bar, so the dropdown
+   opens leftward from it (right: 0, above). The mobile menu button sits near
+   the LEFT edge of the full-width drawer instead — anchoring to the right
+   there pushes the dropdown off the left of the screen, so it opens
+   rightward from the button here. */
+.lang-selector-wrapper--mobile .lang-dropdown {
+  right: auto;
+  left: 0;
+}
+
 .lang-dropdown.open {
   opacity: 1;
   visibility: visible;
