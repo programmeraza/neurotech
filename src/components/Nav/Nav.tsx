@@ -64,6 +64,12 @@ export default function Nav() {
   const { t, i18n } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setRevealed(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = i18n.resolvedLanguage || 'ru';
@@ -99,7 +105,7 @@ export default function Nav() {
 
   return (
     <>
-      <header className={`nt-nav ${scrolled ? 'nt-nav--scrolled' : ''}`}>
+      <header className={`nt-nav ${scrolled ? 'nt-nav--scrolled' : ''} ${revealed ? 'nt-nav--revealed' : ''}`}>
         <a href="#home" className="nt-nav-word">
           NEURO<span>TECH</span>
         </a>
