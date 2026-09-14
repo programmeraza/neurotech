@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "service": "Bosh sahifa",
+    "work": "Xizmatlar",
+    "blog": "Biz haqimizda ",
+    "about": "Kontaktlar",
+    "bookCall": "Maslahat",
+    "portfolioNav": "Portfolio",
+    "titlePart1": "Kompleks IT Yechimlar, Dizayndan Rivojlantirish va Joriy Etishgacha",
+    "titleHighlight": "Raqamli transformatsiya",
+    "subtitle": "raqamli transformatsiyadagi hamkoringiz",
+    "getStarted": "Xizmatlar",
+    "trustedBy": "200+ brend bizga ishonadi"
+  },
+  "expertise": {
+    "title": "Xizmatlar",
+    "cantFind": "Qidirganingizni topa olmadingizmi?",
+    "cta": "Konsultatsiyaga yozilish",
+    "cards": {
+      "cloud": {
+        "title": "Mobil ilovalarni ishlab chiqish",
+        "desc": "Biznesingiz vazifalariga mos iOS va Android uchun masshtablanadigan mobil ilovalarni loyihalashtiramiz va ishlab chiqamiz."
+      },
+      "data": {
+        "title": "AI yechimlarini joriy etish",
+        "desc": "Sun'iy intellekt asosidagi dasturiy mahsulotlarni xavfsizlik talablariga rioya qilgan holda infratuzilmangizga mahalliy yoki bulutda integratsiya qilamiz."
+      },
+      "cyber": {
+        "title": "AI va IT konsalting",
+        "desc": "Jarayonlarni audit qilamiz, raqamli transformatsiya strategiyasini shakllantiramiz va biznes uchun asosli texnologik qarorlar qabul qilishga yordam beramiz."
+      },
+      "workplace": {
+        "title": "Backend va infratuzilma",
+        "desc": "Server arxitekturasi, API va integratsiyalarni ishlab chiqamiz — har qanday yuklama uchun bardoshlilik, xavfsizlik va gorizontal masshtablanish bilan."
+      },
+      "strategy": {
+        "title": "Biznes-jarayonlarni avtomatlashtirish",
+        "desc": "Kundalik jarayonlarni avtomatlashtiramiz, operatsion xarajatlarni kamaytiramiz va kompaniyangizda vazifalarni bajarish tezligini oshiramiz."
+      },
+      "modern": {
+        "title": "Big Data va geoanalitika",
+        "desc": "Katta ma'lumotlar va auditoriya xatti-harakatini tahlil qilib, biznesingizni kengaytirishda aniq qarorlar qabul qilishga yordam beramiz."
+      }
+    }
+  },
+  "footer": {
+    "cta": {
+      "titlePart1": "NEURO",
+      "titleHighlight1": "TECH — sun'iy intellektga asoslangan korporativ dasturiy ta'minot yechimlarini ishlab chiquvchi va integratoridir. Biz biznes jarayonlarini avtomatlashtirish va ma'lumotlar bilan samarali ishlash uchun aqlli tizimlar yaratamiz. Zamonaviy AI texnologiyalarini chuqur dasturiy ta'minot muhandisligi tajribasi bilan birlashtirib, biz yuqori unumdorlik, ishonchlilik va uzoq muddatli rivojlanishga yo'naltirilgan sanoat darajasidagi yechimlarni taqdim etamiz.",
+      "titleHighlight2": "Biz hayot aylanishining barcha bosqichlarida - biznes jarayonlarini tahlil qilish va arxitektura dizaynidan tortib, ishlab chiqish, joriy etish, davlat axborot tizimlari bilan integratsiyalashish va keyingi texnik xizmat ko'rsatishgacha bo'lgan loyihalarni qo'llab-quvvatlaymiz. Bizning ishimizda biz hujjatlar, tasvirlar, videolar, ovozli ma'lumotlar va korporativ bilim bazalarini qayta ishlashga qodir yechimlarni yaratish uchun kompyuter ko'rish, optik belgilarni aniqlash (OCR), qayta tiklash orqali kengaytirilgan avlod (RAG), nutqdan matnga (STT) va mashinani o'rganish texnologiyalarini birlashtirib, ularni avtomatlashtirish va qarorlarni qo'llab-quvvatlash uchun qimmatli vositalarga aylantiramiz.",
+      "titleHighlight3": "NEUROTECH tajribasi AI yordamchilari, hujjatlarni qayta ishlash va tahlil qilish uchun aqlli platformalar, kompyuter ko'rish tizimlari, analitik yechimlar, korporativ axborot tizimlari, raqamli xizmatlar va bank, ishlab chiqarish, davlat boshqaruvi, telekommunikatsiya, logistika va boshqa sohalar ehtiyojlariga moslashtirilgan dasturiy mahsulotlarni ishlab chiqishni o'z ichiga oladi. Har bir loyiha axborot xavfsizligi, masshtablash imkoniyati, integratsiya mosligi va texnologik cheklovlarsiz kengaytirish imkoniyatini hisobga olgan holda ishlab chiqilgan.",
+      "titleHighlight4": "Biz sun'iy intellektni mustaqil vosita sifatida emas, balki zamonaviy tashkilotlarning raqamli transformatsiyasi uchun asos sifatida ko'rib chiqamiz. Shuning uchun bizning maqsadimiz nafaqat mavjud jarayonlarni avtomatlashtiradigan, balki yangi raqamli korxona infratuzilmasini shakllantiradigan, tez rivojlanayotgan iqtisodiyotda operatsion samaradorlikni, qaror qabul qilish sifatini va biznes raqobatbardoshligini oshiradigan yechimlarni yaratishdir. NEUROTECH bugungi kunda real biznes muammolarini hal qilish uchun mo'ljallangan va kelajak muammolariga tayyor bo'lgan aqlli texnologiyalarni taklif etadi."
+    },
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+    "address": "Toshkent shahri, Yunusobod tumani, Adolat MFY, 4-mavze, 28/1-uy",
+    "phone": "+998 94 990-00-07",
+    "copyright": "Barcha huquqlar himoyalangan",
+    "designedBy": "Aziz tomonidan ishlab chiqilgan"
+  },
+  "stats": {
+    "titlePart1": "Biz haqimizda",
+    "satisfied": "mamnun mijozlar",
+    "retention": "mijozlarni saqlab qolish darajasi",
+    "rating": "o'rtacha baho"
+  },
+  "portfolio": {
+    "title": "Portfoliomiz",
+    "viewSite": "Saytni ko'rish",
+    "cards": {
+      "tdyu": {
+        "category": "RAG • On-premise • LLM",
+        "title": "TDYU",
+        "subtitle": "Toshkent Davlat Yuridik Universiteti. Mahalliy AI Modeliga Ega Axborot Tizimi."
+      },
+      "hambi": {
+        "category": "Computer Vision • STT • RAG",
+        "title": "Hambi, Beeline O'zbekiston",
+        "subtitle": "Virtual Agentlarni Ishga Tushirish: AI-Dietolog, Ingliz Tili AI-O'qituvchisi, AI-Chatbot."
+      },
+      "smartloc": {
+        "category": "BI • ML • Data Visualization",
+        "title": "SmartLoc MChJ",
+        "subtitle": "Kompaniyaning Asosiy Ko'rsatkichlarini Monitoring Qilish, Tahlil Qilish va Vizualizatsiya Qilish uchun BI-Platforma."
+      }
+    }
+  },
+  "modal": {
+    "title": "Sizning so'rovingiz",
+    "nameLabel": "F.I.SH.",
+    "namePlaceholder": "Sizga qanday murojaat qilishimiz kerak?",
+    "contactLabel": "Telegram yoki telefon",
+    "contactPlaceholder": "@username yoki +998...",
+    "projectTypeLabel": "Loyiha turi",
+    "submitBtn": "So'rovni yuborish",
+    "sending": "Ma'lumotlar yuborilmoqda...",
+    "success": "So'rov muvaffaqiyatli yuborildi!",
+    "error": "Xatolik. Qaytadan urinib ko'ring",
+    "securityText": "Ma'lumotlar uchinchi shaxslarga berilmaydi",
+    "validationAlert": "Iltimos, majburiy maydonlarni to'ldiring: F.I.SH. va Aloqa ma'lumotlari.",
+    "types": {
+      "mobile": "Mobil ilova",
+      "desktop": "Biznesni avtomatlashtirish",
+      "web": "RAG arxitekturasi",
+      "saas": "SaaS yechimi",
+      "crm": "CRM / ERP tizimlari",
+      "ai": "Sun'iy intellekt yechimi",
+      "other": "Boshqa"
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "hero": {
+    "service": "Home",
+    "work": "Services",
+    "blog": "About",
+    "about": "Contact",
+    "bookCall": "Consultation",
+    "portfolioNav": "Portfolio",
+    "titlePart1": "Comprehensive IT Solutions, From Design to Development and Implementation",
+    "titleHighlight": "Digital transformation",
+    "subtitle": "your partner in digital transformation",
+    "getStarted": "Services",
+    "trustedBy": "Trusted by 200+ brands"
+  },
+  "expertise": {
+    "title": "Services",
+    "cantFind": "Can't find what you're looking for?",
+    "cta": "Book a consultation",
+    "cards": {
+      "cloud": {
+        "title": "Mobile App Development",
+        "desc": "We design and build scalable mobile applications for iOS and Android tailored to your business goals."
+      },
+      "data": {
+        "title": "AI Solutions Implementation",
+        "desc": "We integrate AI-powered software into your infrastructure with security in mind—on-premises or in the cloud."
+      },
+      "cyber": {
+        "title": "AI & IT Consulting",
+        "desc": "We audit processes, shape your digital transformation strategy, and help you make sound technology decisions for your business."
+      },
+      "workplace": {
+        "title": "Backend & Infrastructure",
+        "desc": "We build server architecture, APIs, and integrations with fault tolerance, security, and horizontal scalability for any workload."
+      },
+      "strategy": {
+        "title": "Business Process Automation",
+        "desc": "We automate routine processes to cut operational costs and speed up task execution across your company."
+      },
+      "modern": {
+        "title": "Big Data & Geoanalytics",
+        "desc": "We analyze big data and audience behavior to support targeted decisions as you scale your business."
+      }
+    }
+  },
+  "footer": {
+    "cta": {
+      "titlePart1": "NEURO",
+      "titleHighlight1": "TECH — is a developer and integrator of enterprise software solutions based on artificial intelligence. We create intelligent systems for automating business processes and efficiently working with data. By combining modern AI technologies with deep software engineering expertise, we deliver industrial-grade solutions focused on high performance, reliability, and long-term development.",
+      "titleHighlight2": "We support projects at all stages of the lifecycle—from business process analysis and architecture design to development, implementation, integration with government information systems, and subsequent maintenance. In our work, we combine Computer Vision, Optical Character Recognition (OCR), Retrieval-Augmented Generation (RAG), Speech-to-Text (STT), and machine learning technologies to create solutions capable of processing documents, images, videos, voice data, and corporate knowledge bases, turning them into valuable tools for automation and decision support.",
+      "titleHighlight3": "NEUROTECH's expertise encompasses the development of AI assistants, smart platforms for document processing and analysis, computer vision systems, analytical solutions, corporate information systems, digital services, and software products tailored to the needs of banking, manufacturing, public administration, telecommunications, logistics, and other industries. Each project is developed with information security, scalability, integration compatibility, and the ability to expand without technological limitations in mind.",
+      "titleHighlight4": "We view artificial intelligence not as a standalone tool, but as the foundation for the digital transformation of modern organizations. Therefore, our goal is to create solutions that not only automate existing processes but also shape a new digital enterprise infrastructure, improving operational efficiency, decision-making quality, and business competitiveness in a rapidly evolving economy. NEUROTECH offers intelligent technologies designed to solve real business problems today and are ready for the challenges of the future."
+    },
+    "copyright": "© 2026 NEUROTECH LLC. All rights reserved",
+    "instagram": "Instagram",
+    "telegram": "Telegram",
+    "address": "Tashkent city, Yunusabad district, Adolat neighborhood, 4th block, house 28/1",
+    "phone": "+998 94 990-00-07",
+    "designedBy": "Designed by Aziz"
+  },
+  "stats": {
+    "titlePart1": "About us",
+    "satisfied": "satisfied clients",
+    "retention": "client retention rate",
+    "rating": "average rating"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "viewSite": "View site",
+    "cards": {
+      "tdyu": {
+        "category": "RAG • On-premise • LLM",
+        "title": "TSUL",
+        "subtitle": "Tashkent State University of Law. Information System with an On-Premise AI Model."
+      },
+      "hambi": {
+        "category": "Computer Vision • STT • RAG",
+        "title": "Hambi, Beeline Uzbekistan",
+        "subtitle": "Launch of Virtual Agents: AI Nutritionist, AI English Tutor, AI Chatbot."
+      },
+      "smartloc": {
+        "category": "BI • ML • Data Visualization",
+        "title": "SmartLoc LLC",
+        "subtitle": "BI Platform for Monitoring, Analysis, and Visualization of the Company's Key Metrics."
+      }
+    }
+  },
+  "modal": {
+    "title": "Your Request",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "How should we address you?",
+    "contactLabel": "Telegram or phone",
+    "contactPlaceholder": "@username or +998...",
+    "projectTypeLabel": "Project Type",
+    "submitBtn": "Submit request",
+    "sending": "Sending data...",
+    "success": "Request successfully sent!",
+    "error": "Error. Try again",
+    "securityText": "Data is not transferred to third parties",
+    "validationAlert": "Please fill in the required fields: Full Name and Contact details.",
+    "types": {
+      "mobile": "Mobile App",
+      "desktop": "Business Automation",
+      "web": "RAG Architecture",
+      "saas": "SaaS Solution",
+      "crm": "CRM / ERP Systems",
+      "ai": "AI Solution",
+      "other": "Other"
+    }
+  }
+}
