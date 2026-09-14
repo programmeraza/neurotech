@@ -6,6 +6,14 @@ import '../../i18n';
 import './HeroSection.css';
 
 const BRAND_LOGOS = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png'];
+// Each icon is tiny (62px) and the strip loops via a -50% translate, so one
+// "set" needs to be wider than the widest realistic viewport on its own —
+// otherwise the two concatenated copies together are still shorter than the
+// screen and the belt just runs out into empty background instead of
+// reading as an infinite loop. Repeating the 7 logos 5x comfortably covers
+// ultra-wide desktop monitors; the array below is that one set, duplicated
+// once more for the seamless wrap.
+const BRAND_SET = Array.from({ length: 5 }, () => BRAND_LOGOS).flat();
 
 export default function HeroSection() {
   const { t } = useTranslation();
@@ -48,7 +56,7 @@ export default function HeroSection() {
 
       <div className="hero-brand-rail">
         <div className="hero-brand-track">
-          {[...BRAND_LOGOS, ...BRAND_LOGOS].map((src, i) => (
+          {[...BRAND_SET, ...BRAND_SET].map((src, i) => (
             <img key={i} src={`/${src}`} alt="" className="hero-brand-logo" />
           ))}
         </div>

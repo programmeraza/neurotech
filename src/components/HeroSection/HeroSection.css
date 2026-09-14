@@ -64,13 +64,13 @@
 .hero-cta {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 0.8s cubic-bezier(.16,.8,.24,1), transform 0.8s cubic-bezier(.16,.8,.24,1);
+  transition: opacity 1.4s cubic-bezier(.16,.8,.24,1), transform 1.4s cubic-bezier(.16,.8,.24,1);
 }
 
 .hero-inner--revealed .hero-kicker { opacity: 1; transform: translateY(0); }
-.hero-inner--revealed .hero-title { opacity: 1; transform: translateY(0); transition-delay: 0.1s; }
-.hero-inner--revealed .hero-subtitle { opacity: 1; transform: translateY(0); transition-delay: 0.2s; }
-.hero-inner--revealed .hero-cta { opacity: 1; transform: translateY(0); transition-delay: 0.3s; }
+.hero-inner--revealed .hero-title { opacity: 1; transform: translateY(0); transition-delay: 0.2s; }
+.hero-inner--revealed .hero-subtitle { opacity: 1; transform: translateY(0); transition-delay: 0.4s; }
+.hero-inner--revealed .hero-cta { opacity: 1; transform: translateY(0); transition-delay: 0.6s; }
 
 .hero-kicker {
   display: flex;
@@ -172,9 +172,9 @@
 .hero-brand-track {
   display: flex;
   align-items: center;
-  gap: 56px;
+  gap: 88px;
   width: max-content;
-  animation: hero-marquee 22s linear infinite;
+  animation: hero-marquee 150s linear infinite;
 }
 
 @keyframes hero-marquee {
