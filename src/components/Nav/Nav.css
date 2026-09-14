@@ -57,6 +57,8 @@
 
 .lang-selector-wrapper {
   position: relative;
+  align-self: flex-start;
+  width: fit-content;
 }
 
 .lang-selector {

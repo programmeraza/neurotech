@@ -16,6 +16,19 @@ html {
   text-size-adjust: 100%;
 }
 
+/* Nav is position:fixed and overlaps the top of the page. Without this,
+   jumping to an anchor (#services, #work, #about, #contact) lands the
+   section flush with the viewport top, hidden under the fixed bar — so
+   the first thing a visitor can actually see/tap is already partway
+   into the section. */
+#home,
+#services,
+#work,
+#about,
+#contact {
+  scroll-margin-top: 96px;
+}
+
 body {
   font-family: var(--font-archivo), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   background-color: #0a0a0a;
