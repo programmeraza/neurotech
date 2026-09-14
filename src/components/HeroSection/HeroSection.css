@@ -104,7 +104,10 @@
   letter-spacing: -0.03em;
   line-height: 1.04;
   font-size: clamp(2.6rem, 1.2rem + 4.6vw, 5.4rem);
-  max-width: 15ch;
+  max-width: min(15ch, 100%);
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 .hero-subtitle {

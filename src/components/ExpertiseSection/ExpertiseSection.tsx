@@ -25,9 +25,11 @@ export default function ExpertiseSection() {
             <div
               key={key}
               className={`expertise-row ${isOpen ? 'expertise-row--open' : ''}`}
-              onClick={() => setOpenIndex(isOpen ? -1 : index)}
             >
-              <div className="expertise-row-head">
+              <div
+                className="expertise-row-head"
+                onClick={() => setOpenIndex(isOpen ? -1 : index)}
+              >
                 <span className="expertise-idx">{String(index + 1).padStart(2, '0')}</span>
                 <span className="expertise-row-title">{t(`expertise.cards.${key}.title`)}</span>
                 <span className="expertise-row-plus" aria-hidden="true">
