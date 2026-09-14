@@ -57,8 +57,10 @@
   transition: transform 0.3s ease;
 }
 
-.expertise-row:hover .expertise-row-head {
-  transform: translateX(14px);
+@media (hover: hover) and (pointer: fine) {
+  .expertise-row:hover .expertise-row-head {
+    transform: translateX(14px);
+  }
 }
 
 .expertise-idx {
@@ -97,13 +99,15 @@
   stroke-width: 2;
 }
 
-.expertise-row:hover .expertise-row-plus {
-  transform: rotate(45deg);
-  background: #0a0a0a;
-}
+@media (hover: hover) and (pointer: fine) {
+  .expertise-row:hover .expertise-row-plus {
+    transform: rotate(45deg);
+    background: #0a0a0a;
+  }
 
-.expertise-row:hover .expertise-row-plus svg {
-  stroke: #f5f4f1;
+  .expertise-row:hover .expertise-row-plus svg {
+    stroke: #f5f4f1;
+  }
 }
 
 .expertise-row-desc {
@@ -123,10 +127,12 @@
   max-width: 620px;
 }
 
-.expertise-row:hover .expertise-row-desc {
-  max-height: 200px;
-  opacity: 1;
-  margin-top: 16px;
+@media (hover: hover) and (pointer: fine) {
+  .expertise-row:hover .expertise-row-desc {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 16px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -144,25 +150,6 @@
 
   .expertise-row-head {
     gap: 16px;
-  }
-
-  .expertise-row:hover .expertise-row-head {
-    transform: none;
-  }
-
-  .expertise-row:hover .expertise-row-plus {
-    transform: none;
-    background: transparent;
-  }
-
-  .expertise-row:hover .expertise-row-plus svg {
-    stroke: #0a0a0a;
-  }
-
-  .expertise-row:hover .expertise-row-desc {
-    max-height: 0;
-    opacity: 0;
-    margin-top: 0;
   }
 
   .expertise-row-title {
