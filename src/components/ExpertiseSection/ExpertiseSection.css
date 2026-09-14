@@ -38,6 +38,10 @@
   border-top: 1px solid rgba(10, 10, 10, 0.16);
 }
 
+.expertise-list--locked .expertise-row-head {
+  pointer-events: none;
+}
+
 .expertise-row {
   border-bottom: 1px solid rgba(10, 10, 10, 0.16);
   padding: 30px 0;

@@ -6,9 +6,23 @@ import './ExpertiseSection.css';
 
 const CARD_KEYS = ['cloud', 'data', 'cyber', 'workplace', 'strategy', 'modern'];
 
+// Opening/closing a row animates its height over ~0.4s (see .expertise-row-desc
+// in the CSS) and shifts every row below it. A tap that lands mid-transition can
+// hit whatever row has just moved under the finger, so taps are ignored until
+// the current transition has settled — this must match that CSS duration.
+const TRANSITION_MS = 420;
+
 export default function ExpertiseSection() {
   const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState(0);
+  const [locked, setLocked] = useState(false);
+
+  const handleToggle = (index: number, isOpen: boolean) => {
+    if (locked) return;
+    setLocked(true);
+    setOpenIndex(isOpen ? -1 : index);
+    setTimeout(() => setLocked(false), TRANSITION_MS);
+  };
 
   return (
     <section className="expertise-section" id="services">
@@ -18,7 +32,7 @@ export default function ExpertiseSection() {
         <div className="expertise-hint">Нажмите, чтобы раскрыть</div>
       </div>
 
-      <div className="expertise-list">
+      <div className={`expertise-list ${locked ? 'expertise-list--locked' : ''}`}>
         {CARD_KEYS.map((key, index) => {
           const isOpen = openIndex === index;
           return (
@@ -28,7 +42,7 @@ export default function ExpertiseSection() {
             >
               <div
                 className="expertise-row-head"
-                onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                onClick={() => handleToggle(index, isOpen)}
               >
                 <span className="expertise-idx">{String(index + 1).padStart(2, '0')}</span>
                 <span className="expertise-row-title">{t(`expertise.cards.${key}.title`)}</span>
